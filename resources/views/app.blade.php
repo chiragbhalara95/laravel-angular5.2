@@ -15,23 +15,23 @@
 		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 	<![endif]-->
-	<link rel="stylesheet" href="http://www.expertphp.in/css/bootstrap.css">
+	<link rel="stylesheet" href="{{ asset('public/assets/css/bootstrap.css') }}">
 
-	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-	<script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.1/js/bootstrap.min.js"></script>
+	<script src="{{ asset('public/assets/js/jquery.min.js') }}"></script>
+	<script src="{{ asset('public/assets/js/bootstrap.min.js') }}"></script>
 	
 	<!-- Angular JS -->
-	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.2/angular.min.js"></script>  
-	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.2/angular-route.min.js"></script>
+	<script src="{{ asset('public/assets/js/angular.min.js') }}"></script>
+	<script src="{{ asset('public/assets/js/angular-route.min.js') }}"></script>
 
 	<!-- MY App -->
-	<script src="{{ asset('app/packages/dirPagination.js') }}"></script>
-	<script src="{{ asset('app/routes.js') }}"></script>
-	<script src="{{ asset('app/services/myServices.js') }}"></script>
-	<script src="{{ asset('app/helper/myHelper.js') }}"></script>
+	<script src="{{ asset('public/app/packages/dirPagination.js') }}"></script>
+	<script src="{{ asset('public/app/routes.js') }}"></script>
+	<script src="{{ asset('public/app/services/myServices.js') }}"></script>
+	<script src="{{ asset('public/app/helper/myHelper.js') }}"></script>
 
 	<!-- App Controller -->
-	<script src="{{ asset('/app/controllers/ProductController.js') }}"></script>
+	<script src="{{ asset('public//app/controllers/ProductController.js') }}"></script>
 	<style>
 	.modal-dialog, .modal-content{
 		z-index:1051 !important;

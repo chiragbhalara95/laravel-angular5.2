@@ -13,4 +13,4 @@ app.config(['$routeProvider',
             });
 }]);
 
-app.value('apiUrl', 'http://localhost/laravelangular/public');
+app.value('apiUrl', 'http://localhost/laravel-angular5.2');
